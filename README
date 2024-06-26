@@ -1,4 +1,4 @@
 # FeedForwardImplementation with pytorch
 Basic Feed Forward Neural Network Implementation with ReLU activations and MSE loss for uni-variate regression. This uses the data set from Dont Overfit II which is a kaggle completition thats a bit dated now.
 Both the training and test csv files are included in the repository, all you need to do is clone and then run the close via jupyter notebook and it will work. Despite the name dont overfit this model largely overfits as it does not include drop out or regularization other than using batches.
-The actual Neural Network model is in its own python file and is imported into the jupyter notebook. Its incredibly simple and just uses a sequential container and linear layers, with 8 input neurons, 5 layers of 50 hidden units and a single output neuron in the output layer as its univariate regression.
+The actual Neural Network model is in its own python file and is imported into the jupyter notebook. Its incredibly simple and just uses a sequential container and linear layers, with 8 input neurons, 1 hidden layers of 50 hidden units and a single output neuron in the output layer as its univariate regression.
