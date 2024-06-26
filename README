@@ -1,1 +1,2 @@
-
+# FeedForwardImplementation
+Basic Feed Forward Neural Network Implementation with ReLU activations and MSE loss for uni-variate regression.
