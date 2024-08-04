@@ -1,7 +1,7 @@
 # FeedForwardImplementation with pytorch
 Basic Feed Forward Neural Network Implementation with ELU activations and MSE loss/Cross entropy loss for uni-variate regression. This uses the data set from a Housing Price competion on Kaggle thats a bit dated now.
 Both the training and test csv files are included in the repository, all you need to do is clone and then run the close via jupyter notebook and it will work.
-The actual Neural Network model is in its own python file and is imported into the jupyter notebook. Its incredibly simple and just uses a sequential container and linear layers, with 8 input neurons, 1 hidden layers of 50 hidden units and a single output neuron in the output layer as its univariate regression.
+The actual Neural Network model is in its own python file and is imported into the jupyter notebook. Its incredibly simple and just uses a sequential container and linear layers, with 287 input neurons, 5 hidden layers of 500 hidden units and a single output neuron in the output layer as its univariate regression.
 The model is set up for optuna for hyperparameter search. To prepare the data it uses both pandas to fill in empty data points using mean as well as categorical one-hot encoding. I then use Scikit-learn to standardize the data to help with exploding gradients which was a problem for me when training this model.
 It also automatically will create a submission csv file with pandas for submission to kaggle.
 #Required python modules
